@@ -3,8 +3,8 @@
 {% block content %}
   {% for post in posts %}
   <article class="post">
-    <h2><a href="">{{ post.title }}</a></h2>
-    <small class="date">published: {{ post.published_date }}</small>
+    <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
+    <small class="date">{{ post.published_date }}</small>
     <p>{{ post.text|linebreaksbr }}</p>
   </article>
   {% endfor %}

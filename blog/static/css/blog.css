@@ -9,6 +9,13 @@ dddddd
 body {
   color: #36535b;
   font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+.date {
+  font-family: "Open Sans", sans-serif;
 }
 
 header.jumbotron {
@@ -33,10 +40,15 @@ header.jumbotron h1 {
   padding: 7px 15px;
   border-radius: 3px;
   margin-bottom: 20px;
+}
+
+.post,
+.post-content {
   position: relative;
 }
 
-h2 a {
+h2 a,
+.post-content h2 {
   color: #df744a;
 }
 
@@ -48,14 +60,20 @@ h2 {
   margin-bottom: 0.2em;
 }
 
-.post p {
+.post p,
+.post-content p {
   margin-top: 0.75em;
   margin-bottom: 0.5em;
 }
 
-.post .date {
+.post .date,
+.post-content .date {
   color: #2a7764;
   position: absolute;
   top: 15px;
   right: 15px;
+}
+
+.post-content .date {
+  top: 0;
 }
