@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vamera's Django Blog</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+  </head>
+  <body>
+    <header class="jumbotron">
+      <div class="container">
+        <h1>Vamera's Django Blog</h1>
+        <div class="subtitle">Django Girls Cordoba 1 Ed.</div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        {% block content %}
+        {% endblock %}
+      </div>
+    </main>
+    <footer>
+      <!-- &copy; Vamera's blog 2019 -->
+    </footer>
+  </body>
+</html>
