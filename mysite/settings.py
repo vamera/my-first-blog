@@ -25,7 +25,7 @@ SECRET_KEY = '1ffc%acaw0!3bx*5+4jqz#$(kx+9xmd@cwv_aekv7q(k+tg6(@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', ' vamera.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
