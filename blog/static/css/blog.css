@@ -1,0 +1,61 @@
+/*
+36535b
+cb9287
+d2b3b0
+dddddd
+948f8c
+*/
+
+body {
+  color: #36535b;
+  font-size: 1.8rem;
+}
+
+header.jumbotron {
+  background-color: #fedcd2;
+}
+
+header.jumbotron > .container {
+  max-width: 690px;
+}
+
+header .subtitle {
+  color: #df744a;
+  text-align: right;
+}
+
+header.jumbotron h1 {
+  color: #2a7764;
+}
+
+.post {
+  background-color: #bfd8d2;
+  padding: 7px 15px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+h2 a {
+  color: #df744a;
+}
+
+h2 a:hover {
+  color: #dcb239;
+}
+
+h2 {
+  margin-bottom: 0.2em;
+}
+
+.post p {
+  margin-top: 0.75em;
+  margin-bottom: 0.5em;
+}
+
+.post .date {
+  color: #2a7764;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
